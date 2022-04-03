@@ -10,7 +10,7 @@ export const CV = {
         image: foto,
         aboutMe: [
             {
-                info: "Estudiante de bootcamp Full Stack Development en Upgrade Hub",
+                info: "Desarrolladora Full Stack",
             },
             {
                 info: "Artesana y autodidacta en el área de las artes plásticas y la costura"
@@ -19,7 +19,7 @@ export const CV = {
     },
     education: [
         {
-            name: "Desarrollador Full Stack",
+            name: "Full Stack Developer",
             date: "2021-2022",
             where: "Upgrade Hub (Madrid)",
         },
@@ -36,7 +36,7 @@ export const CV = {
         {
             name: "Francés Nivel 2-1",
             date: "2012",
-            where: "Université Cheik Anta Diop (Dakar, Senegal)",
+            where: "Université Cheikh Anta Diop (Dakar, Senegal)",
         },
         {
             name: "Licenciada en Comunicación Audiovisual",
@@ -61,7 +61,7 @@ export const CV = {
             where: "Desguaces el Rubio (Illescas, Toledo)",
         },
         {
-            name: "Documentalista banco de datos y de vídeo",
+            name: "Documentalista de vídeo y banco de datos",
             date: "12/2009-05/2011",
             where: "Agencia EFE (Madrid)",
         },    
@@ -91,20 +91,22 @@ export const CV = {
     skills: [
         "HTML5",
         "CSS3",
-        "Git",
-        "Node",
+        "React",
+        "Angular",
+        "NodeJS",
         "MongoDB",
         "MySQL",
-        "Angular",
-        "React",
         "PHP",
+        "Symfony",
+        "Docker",
+        "Git",
         "Excel"
     ],
     volunteer: [
         {
             name: "Acción contra el hambre",
             where: "Madrid",
-            description: "Sesiones informativas y dinámicas de sensibilización en diversos colegios de la comunidad de Madrid, para participación de alumnos en las carreras contra el hambre",
+            description: "Sesiones informativas y dinámicas de sensibilización en diversos colegios, para participación de alumnos en las carreras contra el hambre",
         },
         {
             name: "Banco de Alimentos",
@@ -114,7 +116,7 @@ export const CV = {
         {
             name: "Cuidadora y animadora",
             where: "Pouponnière de Dakar (Senegal)",
-            description: "Cuidado, animación y supervisión de niños en hogar infantil para niños huérfanos o procedentes de familias con dificultades",
+            description: "Cuidado, animación y supervisión de niños en hogar infantil",
         },
         
     ],

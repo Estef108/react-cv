@@ -2,7 +2,7 @@
 @import "colors.scss";
 
 .App{ 
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  #966b9d 0.1%, #2f243a 99.8% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  $gradient-color1 0.1%, $gradient-color2 99.8% );
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -51,7 +51,7 @@ button{
     -moz-box-shadow: 1px 1px 18px 0px $secondary-color inset;
     transition: all 300ms;
     &:hover{
-        background-color:#926899;
+        background-color:$terciary-color;
         color:$primary-color;
     }
 }
